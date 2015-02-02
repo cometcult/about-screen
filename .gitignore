@@ -1,0 +1,29 @@
+.idea
+__MACOSX
+.idea/workspace.xml
+
+# xcode noise
+Confr.xcodeproj/project.xcworkspace/xcuserdata/*
+Confr.xcodeproj/xcuserdata/
+Confr.xcworkspace/xcuserdata/
+Pods/Pods.xcodeproj/xcuserdata/*
+Pods/Pods.xcodeproj/xcuserdata
+
+Confr/Confr.xcworkspace/xcuserdata/*
+
+build/*
+dist/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdatad/
+*.pch.save
+*.xccheckout
+profile
+
+# osx noise
+.LSOverride
+*.swp
+.DS_Store
+
