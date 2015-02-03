@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3069F8891A7B7FB50075C576 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3069F8881A7B7FB50075C576 /* MediaPlayer.framework */; };
-		3069F88B1A7B8B420075C576 /* aurora_short_new.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3069F88A1A7B8B420075C576 /* aurora_short_new.mp4 */; };
-		3069F88D1A7BAB080075C576 /* confr_logo_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3069F88C1A7BAB080075C576 /* confr_logo_about@2x.png */; };
+		30AF84E21A80DC85003F3791 /* confr_logo_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30AF84E11A80DC85003F3791 /* confr_logo_about@2x.png */; };
 		30F31A361A7B77D000CE2CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F31A351A7B77D000CE2CBD /* main.m */; };
 		30F31A391A7B77D000CE2CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F31A381A7B77D000CE2CBD /* AppDelegate.m */; };
 		30F31A3C1A7B77D000CE2CBD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F31A3B1A7B77D000CE2CBD /* FirstViewController.m */; };
@@ -33,8 +32,8 @@
 /* Begin PBXFileReference section */
 		3069F8861A7B7F220075C576 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3069F8881A7B7FB50075C576 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		3069F88A1A7B8B420075C576 /* aurora_short_new.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = aurora_short_new.mp4; path = ../../../../Users/even/Desktop/aurora_short_new.mp4; sourceTree = "<group>"; };
-		3069F88C1A7BAB080075C576 /* confr_logo_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "confr_logo_about@2x.png"; path = "../../../../../Users/even/Desktop/confr_app/confr_logo_about@2x.png"; sourceTree = "<group>"; };
+		30AF84E01A80DC75003F3791 /* aurora_short_new.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = aurora_short_new.mp4; sourceTree = "<group>"; };
+		30AF84E11A80DC85003F3791 /* confr_logo_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confr_logo_about@2x.png"; sourceTree = "<group>"; };
 		30F31A301A7B77D000CE2CBD /* TestAboutScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAboutScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F31A341A7B77D000CE2CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30F31A351A7B77D000CE2CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,7 +73,6 @@
 		30F31A271A7B77D000CE2CBD = {
 			isa = PBXGroup;
 			children = (
-				3069F88A1A7B8B420075C576 /* aurora_short_new.mp4 */,
 				3069F8881A7B7FB50075C576 /* MediaPlayer.framework */,
 				3069F8861A7B7F220075C576 /* AVFoundation.framework */,
 				30F31A321A7B77D000CE2CBD /* TestAboutScreen */,
@@ -95,7 +93,8 @@
 		30F31A321A7B77D000CE2CBD /* TestAboutScreen */ = {
 			isa = PBXGroup;
 			children = (
-				3069F88C1A7BAB080075C576 /* confr_logo_about@2x.png */,
+				30AF84E01A80DC75003F3791 /* aurora_short_new.mp4 */,
+				30AF84E11A80DC85003F3791 /* confr_logo_about@2x.png */,
 				30F31A371A7B77D000CE2CBD /* AppDelegate.h */,
 				30F31A381A7B77D000CE2CBD /* AppDelegate.m */,
 				30F31A3A1A7B77D000CE2CBD /* FirstViewController.h */,
@@ -217,11 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3069F88D1A7BAB080075C576 /* confr_logo_about@2x.png in Resources */,
 				30F31A421A7B77D000CE2CBD /* Main.storyboard in Resources */,
 				30F31A471A7B77D000CE2CBD /* LaunchScreen.xib in Resources */,
-				3069F88B1A7B8B420075C576 /* aurora_short_new.mp4 in Resources */,
 				30F31A441A7B77D000CE2CBD /* Images.xcassets in Resources */,
+				30AF84E21A80DC85003F3791 /* confr_logo_about@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
